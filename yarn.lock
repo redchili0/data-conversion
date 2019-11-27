@@ -904,6 +904,23 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
 
+"@editorjs/editorjs@^2.15.1":
+  version "2.15.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/editorjs/-/editorjs-2.15.1.tgz#7e55640a46ca25f6992ad571a5c3302eb3f9b9e6"
+  integrity sha512-0uhf2VAC5a8YblCPvk96a6RHZU26uAGetp8XhQn1aWysZ8PTUk7ti+BnDLpTy6o00J7gLN6lRgMxNNhcSbf16A==
+  dependencies:
+    codex-notifier "^1.1.2"
+
+"@editorjs/header@^2.3.1":
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/@editorjs/header/-/header-2.3.1.tgz#4909d192c484f93ee830403c19efa06538df419a"
+  integrity sha512-YFyfyKs0Az9h4bugO96hr5bC8hO8E4UU8JZnZaa/s2gETxzQmJng8gQp7n3h7rhehMlO9iuyJa92fASyzTgBEQ==
+
+"@editorjs/quote@^2.3.0":
+  version "2.3.0"
+  resolved "https://registry.yarnpkg.com/@editorjs/quote/-/quote-2.3.0.tgz#5585cf93a87a1fd4e0c72ba08c90eb8eb06b518d"
+  integrity sha512-B+4xEXMWiZki2EQDTJRnzMK8hNwpf7vGJtYIxfE4rOuXi5mke3xkKhrD7yPXcZYucVtCnfCVPOmFaQ3ZgiG2Qw==
+
 "@hapi/address@2.x.x":
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/@hapi/address/-/address-2.1.2.tgz#1c794cd6dbf2354d1eb1ef10e0303f573e1c7222"
@@ -2533,6 +2550,11 @@ code-point-at@^1.0.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/code-point-at/-/code-point-at-1.1.0.tgz#0d070b4d043a5bea33a2f1a40e2edb3d9a4ccf77"
   integrity sha1-DQcLTQQ6W+ozovGkDi7bPZpMz3c=
+
+codex-notifier@^1.1.2:
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/codex-notifier/-/codex-notifier-1.1.2.tgz#a733079185f4c927fa296f1d71eb8753fe080895"
+  integrity sha512-DCp6xe/LGueJ1N5sXEwcBc3r3PyVkEEDNWCVigfvywAkeXcZMk9K41a31tkEFBW0Ptlwji6/JlAb49E3Yrxbtg==
 
 collection-visit@^1.0.0:
   version "1.0.0"
@@ -8034,7 +8056,7 @@ react-dev-utils@^9.1.0:
     strip-ansi "5.2.0"
     text-table "0.2.0"
 
-react-dom@16.12.0:
+react-dom@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.12.0.tgz#0da4b714b8d13c2038c9396b54a92baea633fe11"
   integrity sha512-LMxFfAGrcS3kETtQaCkTKjMiifahaMySFDn71fZUNpPHZQEzmk/GiAeIT8JSOrHB23fnuCOMruL2a8NYlw+8Gw==
@@ -8115,7 +8137,7 @@ react-scripts@3.2.0:
   optionalDependencies:
     fsevents "2.0.7"
 
-react@16.12.0:
+react@^16.12.0:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"
   integrity sha512-fglqy3k5E+81pA8s+7K0/T3DBCF0ZDOher1elBFzF7O6arXJgzyu/FW+COxFvAWXJoJN9KIZbT2LXlukwphYTA==
