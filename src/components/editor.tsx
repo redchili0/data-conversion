@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from "react";
 import EditorJS from "@editorjs/editorjs";
-import Header from "@editorjs/header";
+import CodeTool from "@editorjs/code";
 
 export default function Editor() {
   const codexEditorEl = useRef<any>(null);
@@ -9,10 +9,7 @@ export default function Editor() {
       holder: codexEditorEl.current,
       placeholder: "Let`s write an awesome story!",
       tools: {
-        header: {
-          class: Header,
-          inlineToolbar: true
-        }
+        code: CodeTool
       },
       onChange: () => {
         editor
