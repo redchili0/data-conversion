@@ -16,7 +16,8 @@ code {
   padding: 20px;
 }
 
-.editor {
-  width: 50%;
+.ace_editor_box {
+  /* width: 500px; */
   border: 1px solid #eeeeee;
+  /* overflow-y: scroll; */
 }
